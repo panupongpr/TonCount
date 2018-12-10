@@ -19,6 +19,15 @@ export class AppComponent implements OnInit{
    this.myTitle = 'Came Countting';
    this.titleColor = '#FF0000';
    this.myNumber = 0;
+   console.log('app start');
+
+  }
+
+  // Controller For Click
+  myCountButton(){
+
+    console.log('You Click Button');
+    this.myNumber += 1;
 
   }
 
